@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Searcher v2</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Show Searcher 2: Electric Boogaloo</h1>
+        <nav>
+            
+               <a href="/" id="homeLink" hidden>Back to All Shows</a>
+        
+        </nav>
+    </header>
+        <p id="error" hidden>CHECK UR INPUT!!</p>
+        <p id="no_results" hidden>UNFORUTNATELY THERE ARE NO RESULTS!</p>
+        <form method="POST" id="searchForm">
+            <label for= "search_term" id="formLabel">
+                Search Shows:
+            </label>
+            
+            <input type="text" id="search_term" name="showSearchTerm" 
+        placeholder="Type here! (ie: batman, one piece, spongebob)" class="full-width-input" size="37">
+
+            <button id="button" type="submit">SEARCH</button>
+        </form>
+        <ul id="showList" hidden></ul>
+        <div id="show" hidden></div>
+
+        <footer>
+            <h1>
+                Created by Eric Song</h1>
+            <h2>
+                My CWID is 10458313.
+            </h2>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="/public/js/jQuery.js"></script>
+</body>
+</html> 

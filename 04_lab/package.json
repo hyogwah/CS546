@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "cs 546 lab 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Eric Song 10458313",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.3.1"
+  }
+}
